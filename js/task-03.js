@@ -17,8 +17,8 @@ const galleryEl = document.querySelector(".gallery");
 
 const galleryObj = ({url, alt}) => {
   return`
-    <li>
-      <img src = "${url}" alt = "${alt}"/>
+    <li class = "li-t3">
+      <img src = "${url}" alt = "${alt}" class = "img-t3"/>
     </li>
   `;
 };
